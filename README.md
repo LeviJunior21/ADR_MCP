@@ -40,7 +40,7 @@ Adotou-se o suporte à funcionalidade de **batch requests**, conforme descrito n
 ]
 ```
 
-> ⚠️ Notificações (sem `id`) não recebem resposta, conforme a especificação.
+> Notificações (sem `id`) não recebem resposta, conforme a especificação.
 
 ---
 
@@ -53,7 +53,7 @@ Adotou-se o suporte à funcionalidade de **batch requests**, conforme descrito n
 - Compatível com implementações padronizadas de JSON-RPC 2.0.
 - Suporte a paralelismo e agregação de chamadas assíncronas.
 
-### ⚠️ Negativas / Cuidados
+### Negativas / Cuidados
 
 - A ordem das respostas **não é garantida**. Clientes devem usar `id` para correlacionar.
 - Requisições batch **não podem ser arrays vazios (`[]`)** — isso é inválido.
